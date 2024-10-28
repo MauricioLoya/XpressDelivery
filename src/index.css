@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+th {
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+tr {
+  border: 1px solid #000;
+  
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: center;
+  
+}
+
+button {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.on-way {
+  background-color: yellow;
+  color: #000;
+}
+
+.completed {
+  background-color: green;
+  color: #fff;
+}
